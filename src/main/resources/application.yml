@@ -1,0 +1,10 @@
+---
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: mysql://ba804f8d422564:dc3442a6@us-cdbr-iron-east-04.cleardb.net:3306/ad_16c81e030ed8bb3?reconnect=true
+    username: ba804f8d422564
+    password: dc3442a6
+  jpa:
+    hibernate.ddl-auto: none
+    show_sql: false
